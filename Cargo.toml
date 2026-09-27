@@ -1,0 +1,9 @@
+[package]
+name = "getting-started-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chromiumoxide = "0.9"
+futures-lite = "2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
